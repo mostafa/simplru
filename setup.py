@@ -1,0 +1,32 @@
+import re
+from os.path import join, dirname
+from setuptools import setup
+
+setup(name="simplru",
+      version="0.0.1",
+      description="Simple LRU cache for python!",
+      url="https://github.com/mostafa/simplru",
+      author="Mostafa Moradian",
+      author_email="mostafamoradian0@gmail.com",
+      license="GPLv3",
+      packages=["simplru"],
+      long_description="""
+Simplru
+=====
+
+Simple LRU cache for python!
+
+For more information, visit github page of `the project <https://github.com/mostafa/simplru>`_.""",
+      classifiers=[
+          "Development Status :: 4 - Beta",
+          "Intended Audience :: Developers",
+          "Topic :: Software Development :: Libraries",
+          "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+          "Programming Language :: Python :: 2",
+          "Programming Language :: Python :: 2.7",
+          "Programming Language :: Python :: 3"
+      ],
+      # keywords='',
+      setup_requires=['pytest-runner'],
+      tests_require=['pytest'],
+      zip_safe=False)
