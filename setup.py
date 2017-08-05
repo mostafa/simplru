@@ -1,10 +1,8 @@
-import re
-from os.path import join, dirname
 from setuptools import setup
 
 setup(name="simplru",
       version="0.0.1",
-      description="Simple LRU cache for python!",
+      description="A backport of Python 3 LRU Cache functionality for Python 2",
       url="https://github.com/mostafa/simplru",
       author="Mostafa Moradian",
       author_email="mostafamoradian0@gmail.com",
@@ -14,7 +12,7 @@ setup(name="simplru",
 Simplru
 =====
 
-Simple LRU cache for python!
+A backport of Python 3 LRU Cache functionality for Python 2
 
 For more information, visit github page of `the project <https://github.com/mostafa/simplru>`_.""",
       classifiers=[
