@@ -1,4 +1,6 @@
 # Simplru
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmostafa%2Fsimplru.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmostafa%2Fsimplru?ref=badge_shield)
+
 A backport of Python 3 LRU Cache functionality for Python 2
 
 ## Installation
@@ -26,3 +28,7 @@ You can find an tests in [tests](https://github.com/mostafa/simplru/tree/master/
 
 ## Examples
 Refer to [Python 3 documentation](https://docs.python.org/3/library/functools.html#functools.lru_cache) for examples of LRU cache usage.
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fmostafa%2Fsimplru.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fmostafa%2Fsimplru?ref=badge_large)
